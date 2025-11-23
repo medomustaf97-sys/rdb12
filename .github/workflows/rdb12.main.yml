@@ -1,13 +1,11 @@
 name: rdb12
  on:
   workflow_dispatch:
- 
-jobs:
+ jobs:
   secure-rdb12:
     runs-on: windows-latest
     timeout-minutes: 3600
- 
-    steps:
+     steps:
       - name: Configure Core rdb12 Settings
         run: |
           # Enable Remote Desktop and disable
