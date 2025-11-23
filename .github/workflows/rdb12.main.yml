@@ -1,6 +1,5 @@
 name: rdb12
- 
-on:
+ on:
   workflow_dispatch:
  
 jobs:
